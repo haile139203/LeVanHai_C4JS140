@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 10% auto;
+    background-color: bisque;
+}
+
+#triangle {
+    font-family: monospace;
+    white-space: pre;
+    font-size: xx-large;
+    background-color: aquamarine;
+    padding: 5%;
+}

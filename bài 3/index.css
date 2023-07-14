@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #BFC8E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #FFFFFF;
+    margin: 5% 8%;
+    padding: 7%;
+    border-radius: 8px;
+}
+
+.container h1 {
+    color: var(--151-b-32, #151B32);
+    font-family: 'Merriweather';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    padding: 2%;
+    border: solid 2px #8ea2e2 ;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.menu i {
+    font-size: large;
+}
+
+.menu h4 {
+    margin-left: 10px;
+    color: var(--151-b-32, #151B32);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 20px 15px;
+    color: var(--151-b-32, #151B32);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+li:hover {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: #849FFF;
+    border-radius: 8px;
+    transform: scale(1.1);
+}
+
+.All-profile {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.profile {
+    padding: 10px 10px 50px 10px;
+}
+
+.profile:hover {
+    border: solid 1px #516FD4;
+    border-radius: 8px;
+    transform: scale(1.1);
+}
+
+.profile button {
+    border: solid 1px #8ea2e2;
+    padding: 2px 4px;
+    text-align: center;
+    border-radius: 8px;
+    color: #516FD4;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: #FFFFFF;
+}
+
+.profile th {
+    padding: 10px;
+    text-align: left;
+}
+
+.profile th .right {
+    margin-top: 5px;
+}
+ 
+.profile h3 {
+    margin: 20px 0 5px 0;
+    color: var(--151-b-32, #151B32);
+    font-family: 'Merriweather';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.profile h5 {
+    margin-bottom: 15px;
+    color: var(--151-b-32, #151B32);
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
